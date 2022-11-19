@@ -1,0 +1,326 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: rgba(255,255,255,1);
+display:inline-flex;
+flex-direction: row;
+max-width: 1200px;
+}
+
+
+p {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959; 
+}
+
+
+
+
+h4 {
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: black;
+}
+
+.subtitle {
+color: orangered;
+}
+
+li {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+.sidebar {
+width: 370px;
+background-color:#1e2939 ;
+color: #fff;
+Padding-top: 40px;
+}
+
+.sidebar .content { 
+margin-top: 50px;
+margin-left: 40px;
+}
+
+
+.contact p {
+color: #fff;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin: 8px, 0px, 0px, 0px;
+}
+
+.contacts p:last-child {
+margin: 0;
+}
+
+.contacts h3 {
+margin: 0px
+}
+
+.tech-skills {
+ margin: 47px, 0px 0px 0px;
+}
+
+.tech-skills li {
+color: #fff;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.tech-skills ul {
+list-style: none;
+padding-left: 0px;
+margin: 0;
+}
+
+.tech-skills ul li::before {
+content: "\2022";
+font-weight: 700;
+line-height: 24px;
+color: orangered;
+display: inline-block;
+width: 10px;
+}
+
+
+.soft-skills {
+margin: 47px auto;
+}
+
+.soft-skills ul {
+list-style-type: none;
+padding-left: 0px;
+margin: 0;
+}
+
+.soft-skills li {
+color: #fff;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+
+.soft-skills ul li::before {
+content: "\2022";
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: orangered;
+display: inline-block;
+width: 10px;
+}
+
+
+.phone {
+text-decoration: none;
+color:rgba(255, 255, 255, 0.5);}
+
+.mail {
+color:rgba(255, 255, 255, 0.5);
+}
+
+
+h3 {
+margin: 0;
+}
+
+.main-section {
+width: calc(100% - 370px);
+padding: 102px 217px 107px 88px;
+}
+
+.summary {
+margin-bottom: 40px;
+}
+
+
+summary > h4 {
+margin: 0;
+font-weight: 700;
+font-size: 14px;
+color: black;
+}
+
+
+.summary > h2 {
+margin: 19px 0px 24px 0px;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+color: black;
+}
+
+summary p {
+margin: 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+
+.projects > h3 {
+margin: 0;
+}
+
+
+.projects > ol {
+margin-top: 8 0 1.5em 0;
+padding: 0;
+counter-reset: item;
+}
+
+
+
+.projects > ol span {
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color:black;
+}
+
+ol > li {
+margin-top: 8px;
+padding:0 0 0 2em;
+text-indent: -2em;
+list-style-type: none;
+counter-increment:item;
+}
+
+
+ol > li:before {
+display: inline-block;
+width: 1em;
+padding-right: 25px;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color:black;
+text-align: right;
+content: counter(item)". "
+}
+
+
+
+.projects > li {
+margin-top: 8px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+
+
+.projects a {
+margin-top: 8px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/*text-decoration-line: underline;*/
+color: #595959;
+}
+
+
+
+
+.work-experience {
+margin: 5px 0px 0px 0px;
+}
+
+.work-experience > h3 {
+font-weight: 700;
+font-size: 22px;
+line-height:27px;
+margin: 0;
+color: black;
+}
+
+
+
+
+.work-experience .first {
+margin: 12px 0px; 
+}
+
+
+
+.work-experience > .first > h4 {
+margin: 28px 0px 12px 0px;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px
+}
+
+
+
+.work-experience > .first > p {
+margin: 0;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #ABABAB;
+}
+
+
+
+.work-experience > .first > ul {
+list-style: none;
+padding-left: 0px;
+margin: 8px 0px 0px 0px;
+}
+
+
+
+.work-experience > .first > li {
+color: #595959;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.education > h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+    margin: 43px 0px 12px 0px;
+}
+
+
+.education > h4 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px
+    /*color:#FB6D3A*/
+}
+
+.education > h5 {
+    margin: 11px 0px 12px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+
+}
+
+
+.education > p {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ABABAB;
+}
